@@ -1,0 +1,35 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 0.1px solid black;
+    text-align: center;
+    vertical-align: center;
+    height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.empty{
+    border: none;
+}
+
+.element-symbol {
+    font-size: 1em; 
+    display: block;
+}
+
+.element-name {
+    font-size: 0.5em; 
+    display: block;
+}
+
+.atomic-number {
+    position: absolute; 
+    top: 10px; 
+    left: 11px; 
+    font-size: 0.4em; 
+}
