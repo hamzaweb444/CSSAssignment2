@@ -1,21 +1,32 @@
 .table{
     width: 100%;
     border-collapse: collapse;
-    
+}
+
+.table1{
+    width: 80%;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 td{
-    border: 0.1px solid black;
+    border: 1px solid black;
     text-align: center;
-    vertical-align: center;
-    height: 40px;
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
     font-size: 25px;
     padding: 8px;
     position: relative;
+    box-sizing: border-box;
 }
 
 .empty{
     border: none;
+    width: auto;
+    height: 55px;
 }
 
 .element-symbol {
@@ -71,4 +82,12 @@ td{
 
 .lyft{
     background-color: #FF00BF;
+}
+
+.iris{
+    background-color: #5D3FD3;
+}
+
+.bpurple{
+    background-color: #9d50e6;
 }
