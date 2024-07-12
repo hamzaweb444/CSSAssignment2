@@ -1,16 +1,16 @@
 .table{
     width: 100%;
     border-collapse: collapse;
+    
 }
 
 td{
     border: 0.1px solid black;
     text-align: center;
     vertical-align: center;
-    height: 45px;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
+    height: 40px;
+    font-size: 25px;
+    padding: 8px;
     position: relative;
 }
 
@@ -21,16 +21,54 @@ td{
 .element-symbol {
     font-size: 1em; 
     display: block;
+    font-weight: bolder;
 }
 
 .element-name {
-    font-size: 0.5em; 
+    font-size: 0.4em; 
     display: block;
 }
 
 .atomic-number {
     position: absolute; 
-    top: 5px; 
-    left: 7px; 
-    font-size: 0.4em; 
+    top: 1px; 
+    left: 1px; 
+    font-size: 0.3em;
+    font-weight: bold;
+}
+
+.tufts{
+    background-color: #3E8EDE;  
+}
+
+.nonphoto{
+    background-color: #A4DDED;
+}
+
+.yellow{
+    background-color: #FFFF00;
+}
+
+.candy{
+    background-color: #FF0800;
+}
+
+.pumpkin{
+    background-color: #FF7518;
+}
+
+.jade{
+    background-color: #00A86B;
+}
+
+.pgreen{
+    background-color: #00A693;
+}
+
+.spring{
+    background-color: #00FA9A;
+}
+
+.lyft{
+    background-color: #FF00BF;
 }
