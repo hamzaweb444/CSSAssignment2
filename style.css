@@ -1,32 +1,33 @@
 .table{
     width: 100%;
     border-collapse: collapse;
-}
-
-.table1{
-    width: 80%;
-    border-collapse: collapse;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    table-layout: fixed;
+    margin-top: 30px;  
 }
 
 td{
-    border: 1px solid black;
+    border: 1px black solid;
     text-align: center;
     vertical-align: middle;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     font-size: 25px;
     padding: 8px;
     position: relative;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .empty{
     border: none;
     width: auto;
     height: 55px;
+}
+
+.gap-row{
+    border: none;
+    width: auto;
+    height: 20px;
 }
 
 .element-symbol {
@@ -42,11 +43,12 @@ td{
 
 .atomic-number {
     position: absolute; 
-    top: 1px; 
-    left: 1px; 
+    top: 2px; 
+    left: 2px; 
     font-size: 0.3em;
     font-weight: bold;
 }
+
 
 .tufts{
     background-color: #3E8EDE;  
